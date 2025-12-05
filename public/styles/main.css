@@ -1,0 +1,80 @@
+body {
+  padding: 1%;
+  margin: 1%;
+  background: url("/images/sunny.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.metric {
+  text-align: end;
+}
+
+.metric h3 {
+  font-size: 30px;
+}
+
+.top-row {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: end;
+  text-align: end;
+}
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-horizontal-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: clamp(40px, 10vw, 130px);
+}
+
+.hourly-cards-container {
+  display: flex;
+  gap: clamp(40px, 10vw, 130px);
+}
+
+.navigational-arrows {
+  display: flex;
+  gap: 40px;
+}
+
+.navigational-arrows img {
+  padding: 10%;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.3);
+  height: 40px;
+}
